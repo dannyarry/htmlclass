@@ -1,0 +1,32 @@
+.sign-btn {
+  float: right;
+  margin-right: 70px;
+  text-transform: uppercase;
+}
+.SignUp,
+.login {
+  padding: 10px;
+  background-color: gray;
+  border: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  margin: 10px 70px;
+  /* padding: 50px;*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 150px 50px 50px;
+  background-image: url(https://imgd.aeplcdn.com/1056x594/n/cw/ec/44686/activa-6g-right-front-three-quarter.jpeg?q=75);
+}

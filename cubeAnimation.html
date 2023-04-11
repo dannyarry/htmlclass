@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cube</title>
+    <style type="text/css">
+      img {
+        border-radius: 50%;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        border-radius: 50%;
+        animation: bounce 0.3s infinite; /* animation-duration: 2s; */
+        top: 0;
+      }
+      @keyframes bounce {
+        0% {
+          /*height: 50px;
+          width: 50px; */
+          top: 0px;
+        }
+        50% {
+          /*height: 50px;
+          width: 50px; */
+          transform: translateY(240px);
+          top: 100px;
+        }
+        100% {
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cube"></div>
+  </body>
+</html>
